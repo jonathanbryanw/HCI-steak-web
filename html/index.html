@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABABA Steak</title>
+    <script
+    src="../js/jquery-3.5.1.js">
+    </script>
+    <script src="../js/slider.js"></script>
+    <link rel="stylesheet" href="../css/style_index.css">
+    <link rel="stylesheet" href="../css/slider.css">
+
+    
+</head>
+<body>
+
+    <header class="header" id="topHeader">
+        <ul>
+            <li><a href="../html/index.html"><img src="../asset/Logo 2 Transparent.png" alt=""></a></li>
+            <li><a href="../html/index.html">HOME</a></li>
+            <li><a href="../html/menu.html">MENU</a></li>
+            <li><a href="../html/about_us.html">ABOUT US</a></li>
+            <li><a href="../html/promo.html">PROMO</a></li>
+            <li class="btn_reserve"><a href="../html/reserve.html"><button>RESERVE NOW</button></a></li>
+        </ul>
+    </header>
+
+    <div class="content-1">
+        <div class="slider-outer">
+            <div class="slider-inner">
+                <img src="../asset/Banner one.png" class="active" id="1">
+                <img src="../asset/Banner two.png" id="2">
+                <img src="../asset/Banner three.png" id="3">
+            </div>
+
+            <div class="slide-dot">
+                <div class="dot active-dot" onclick="dotChange(1)"></div>
+                <div class="dot" onclick="dotChange(2)"></div>
+                <div class="dot" onclick="dotChange(3)"></div>
+            </div>
+
+            <div class="prev" alt="Prev">&#10094;</div>
+            <div class="next" alt="Next">&#10095;</div>
+      </div>
+    </div>
+
+    <div class="content-2">
+        <p class="header_month">Steak of The Month</p>
+        <hr>
+
+        <div class="content-2_fill">
+            <div class="card" id="card-1">
+                <img src="../asset/month1.png" alt="">
+                <div class="card_detail">
+                    <p class="subtitle_month">Premium Dry Aged Steak</p>
+                    <p class="desc_month">Australian Wagyu Striploin Mb 4/5 aged for 30 days. Truly a slice of heaven</p>
+                </div>
+            </div>
+     
+            <div class="card" id="card-2">
+                <img src="../asset/month2.png" alt="">
+                <div class="card_detail">
+                    <p class="subtitle_month">Mighty Tomahawk</p>
+                    <p class="desc_month">A 400 grams of USDA Prime bone-in Ribeye broiled to perfection</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-3">
+        <p>What are you waiting for?</p>
+        <p>View the complete menu now</p>
+        <a href="../html/menu.html"><button>VIEW MENU</button></a>
+    </div>
+
+    <footer>
+        <p>©ABABA Steak, Inc. All Rights Reserved</p>
+    </footer>
+</body>
+</html>

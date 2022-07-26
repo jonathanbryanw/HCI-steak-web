@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABABA Steak Reserve</title>
+    <script
+    src="../js/jquery-3.5.1.js">
+    </script>
+    <script src="../js/reserve.js"></script>
+    <link rel="stylesheet" href="../css/style_reserve.css">
+    <link rel="stylesheet" href="../css/slider.css">
+</head>
+<body>
+    <header class="header" id="topHeader">
+        <ul>
+            <li><a href="../html/index.html"><img src="../asset/Logo 2 Transparent.png" alt=""></a></li>
+            <li><a href="../html/index.html">HOME</a></li>
+            <li><a href="../html/menu.html">MENU</a></li>
+            <li><a href="../html/about_us.html">ABOUT US</a></li>
+            <li><a href="../html/promo.html">PROMO</a></li>
+            <li class="btn_reserve"><a href="../html/reserve.html"><button>RESERVE NOW</button></a></li>
+        </ul>
+    </header>
+
+    <div class="Reserve-banner">
+        <p class="Reserve">RESERVE A TABLE</p>
+    </div>
+
+    <div class="Form">
+        <form class="container" onsubmit="return validates()" name="theForm">
+      
+          <label for="name"><b>Name</b></label>
+          <input type="text" placeholder="Enter Name" name="name">
+      
+          <label for="phone"><b>Phone</b></label>
+          <input type="text" placeholder="Enter Phone" name="phone">
+
+          <label for="guest"><b>Guests</b></label>
+          <input type="text" placeholder="Total Guest" name="guest">
+            
+          <label for="date"><b>Date</b></label>
+          <input type="date" placeholder="Date" name="date">
+
+          <label for="time"><b>Time</b></label>
+          <input type="time" placeholder="Time" name="time">
+
+          <label for="coupon"><b>Coupon</b></label>
+          <input type="text" placeholder="(optional)" name="coupon">
+
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+
+    <footer>
+        <p>©ABABA Steak, Inc. All Rights Reserved</p>
+    </footer>
+</body>
+</html>
